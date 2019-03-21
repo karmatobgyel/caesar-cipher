@@ -5,7 +5,7 @@ alb = string.ascii_lowercase
 code_to_break = input("Enter the cipher text: ").lower()
 
 print(code_to_break)
-special_char = "~`!@#$%^&*()_-+=';:<,>.?/\"{[}]|\\ "
+special_char = "~`!@#$%^&*()_-+=';:<,>.?/\"{[}]|\\ 0123456789"
 
 
 for i in range(25):
